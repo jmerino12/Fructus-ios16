@@ -30,6 +30,20 @@ struct SettingView: View {
                     }label:{
                      SettingsLabelView(labelText: "Fructus", labelImagen: "info.circle")
                     }
+                    
+                    // MARK: - SECTION 2
+                    
+                    // MARK: - SECION 3
+                    GroupBox {
+                        SettingsRowView(name: "Developer", content: "Jonathan Meriño")
+                        SettingsRowView(name: "Designer",  content: "Robert Petras")
+                        SettingsRowView(name: "Compatibility", content: "iOS 14")
+                        SettingsRowView(name: "Website", linkLabel: "SwiftUI Masterclass", linkDestination: "swiftuimasterclass.com")
+                        SettingsRowView(name: "Twitter", linkLabel: "@jmerino012", linkDestination: "twitter.com/jmerino012")
+                        SettingsRowView(name: "Version", content: "1.1.0")
+                    }label: {
+                        SettingsLabelView(labelText: "Application", labelImagen: "apps.iphone")
+                    }
                 }
           
                 .toolbar{
