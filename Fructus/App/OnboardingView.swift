@@ -13,8 +13,8 @@ struct OnboardingView: View {
     // MARK: - BODY
     var body: some View {
         TabView {
-            ForEach(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) { item in
-                FruitCardView()
+            ForEach(fruitsData[0...5]) { item in
+                FruitCardView(fruit: item)
             }//: LOOP
         }//:TABVIEW
         .tabViewStyle(PageTabViewStyle())
