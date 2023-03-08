@@ -37,7 +37,6 @@ struct ContentView: View {
             .navigationTitle("Fruits")
         
         }//: Navigation
-        
     }
 }
     // MARK: - PREVIEW
